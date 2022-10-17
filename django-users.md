@@ -12,4 +12,7 @@ You *can* build your own registration, mechanism for users to sign up and log in
 Registration Redux. The simplest way to incorporate this tool is to:
 1. `pipenv install django-registration-redux`
 2. Add 'registration' to installed apps at the top in settings.py.
-3. Follow the directions for the "Simple" (one step) setup found [here](https://django-registration-redux.readthedocs.io/en/latest/simple-backend.html).
+3. Create a templates directory with a template called base.html. It needs to exist and contain this:
+{% block content %}
+{% endblock %}
+4. Follow the directions for the "Simple" (one step) setup found [here](https://django-registration-redux.readthedocs.io/en/latest/simple-backend.html).
