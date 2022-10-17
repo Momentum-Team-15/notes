@@ -17,4 +17,9 @@ Registration Redux. The simplest way to incorporate this tool is to:
 {% block content %}
 {% endblock %}
 ```
-4. Follow the directions for the "Simple" (one step) setup found [here](https://django-registration-redux.readthedocs.io/en/latest/simple-backend.html).
+4. Add `import os` to the top of `settings.py`.
+5. Update the 'DIRS' value inside TEMPLATES within `settings.py` to be:
+  ```
+          'DIRS': [os.path.join(BASE_DIR, 'templates')],
+```
+6. Follow the directions for the "Simple" (one step) setup found [here](https://django-registration-redux.readthedocs.io/en/latest/simple-backend.html).
