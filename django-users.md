@@ -3,6 +3,8 @@
 For most models, you can make changes to them throughout development. The exception to this is `User`. Django has several built in `User` 
 models, which you can customize. You need to decide which option you are going to use at the beginning of a project. A good breakdown of
 the options can be found in this [article](https://simpleisbetterthancomplex.com/tutorial/2016/07/22/how-to-extend-django-user-model.html)
+In class, we are going to choose option 4, inheriting from `AbstractUser`, which is [here](https://github.com/django/django/blob/0dd29209091280ccf34e07c9468746c396b7778e/django/contrib/auth/models.py#L334) in the source code.
+
 
 ## Registration with Django Registration Redux
 
