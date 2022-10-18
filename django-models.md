@@ -15,7 +15,7 @@ class Post(models.Model):
   updated_at = models.DateTimeField(auto_now=True)
   
   def __str__(self):
-    return f"Post {self.id} by {self.user} on {self.creayed_at}"
+    return f"Post {self.id} by {self.user} on {self.created_at}"
 ```
 ---  
 
@@ -29,7 +29,7 @@ class Post(models.Model):
 - Django databases are based on SQL, but you don't have to write SQL to use Django. The Django ORM (Object Relational Mapper) allows you to write python code that is translated into SQL queries that Django then performs on the database.
 ---  
 
-## How can you see, add, and edit instances of your models in the database?
+## How can you see, add, edit, and delete instances of your models in the database?
 - You can access the database directly using a database browser program like [DB Browser for SQLite](https://sqlitebrowser.org/).
 - You can use the Django Admin to access the database as well by adding `/admin` to the root url for the project. In order to do this, you need to create a superuser with `python manage.py createsuperuser`.
 - You can use the Django shell to write one-line commands to create, retrieve, update, or delete instances of models in the Database. This [section of the DjangoGirls tutorial](https://tutorial.djangogirls.org/en/django_orm/) provides guidance on using the Django shell. 
