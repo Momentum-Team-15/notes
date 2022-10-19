@@ -23,7 +23,7 @@ our views will be used to take a request that the user made to a URL and generat
 ## URLs
 
 Django URLs are listed in the `urls.py` file and each path includes a pattern that the user will enter, a view, and a name. The `name` argument
-is used as a shorthand by Django to refer to a path. An example of a path for a homepage looks like this.
+is used as a shorthand by Django to refer to a path. An example of a path for a homepage looks like this. In DjangoGirls, you made a separate `urls.py` inside the app `blog`. That's valid Django, but we are going to just use the `urls.py` that was built inside of `config`.
 
 ```py
     path('/', views.index, name="home"),
