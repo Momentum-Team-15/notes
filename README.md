@@ -28,7 +28,8 @@
 - [Structure of Django Diagram](django-diagram.md)
 - [O2M and M2M Diagram](django-relationships.md)
 
-### Phase 3: Back End -- Django & Django REST Framework
+### Phase 3
 
+- [JS For React](js-for-react.md)
 - [Django Queries Cheat Sheet](django-queries.md)
-- [Full-text Search with Postgres]()
+
