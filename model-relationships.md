@@ -1,3 +1,3 @@
 
 # Model Relationships
-![](images/relationships.png)
+![](images/model-relationships.png)
