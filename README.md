@@ -37,6 +37,7 @@
 #### Back End
 
 - [Queries from class in `shell_plus`](shell_plus.md)
+- [Habit Tracker Model Diagram from class](habit-tracker-models.md)
 - [Django Queries Cheat Sheet](django-queries.md)
 - [Foreign Keys & Primary Keys](pks-and-fks.md)
 - [Diagram of O2M relationship](django-relationships.md)
