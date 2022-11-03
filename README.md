@@ -30,6 +30,13 @@
 
 ### Phase 3
 
-- [JS For React](js-for-react.md)
-- [Django Queries Cheat Sheet](django-queries.md)
+#### Front End
 
+- [JS For React](js-for-react.md)
+
+#### Back End
+
+- [Queries from class in `shell_plus`](shell_plus.md)
+- [Django Queries Cheat Sheet](django-queries.md)
+- [Foreign Keys & Primary Keys](pks-and-fks.md)
+- [Diagram of O2M relationship](django-relationships.md)
